@@ -1,0 +1,24 @@
+body {
+    background-color: skyblue;
+}
+
+#bar {
+    text-align: center;
+    color:white;
+    background-color: #7c7c7c;
+    padding: 5px;
+    width: 98%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main-nav {
+    background-color: sienna;
+    text-align: center;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
