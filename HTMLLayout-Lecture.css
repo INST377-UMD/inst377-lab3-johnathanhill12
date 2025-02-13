@@ -44,3 +44,17 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+.content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+}
+
+.content-box {
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
