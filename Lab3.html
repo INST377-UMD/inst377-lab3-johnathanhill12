@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<hmtl lang="en"> 
+<html lang="en"> 
     <head>
         <title>INST377-Class Page </title>
         <link rel="stylesheet" href="HTMLLayout-Lecture.css">
@@ -26,35 +26,39 @@
         </nav>
 
         <!-- Main text area -->
-        <div class="main-container">
-            <h1>Announcements</h1>
+        <div class="main-container">   
             <div class="content-area">
                 <div class="content-box">
-                    <h1>This is content box 1</h1>
-                    <p>Lorem ipsum...</p>
+                    <h1>Please choose your move </h1>
+                    <form>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name">
+                        <br>
+                        <label for="choice">Choice: </label> 
+                        <select id="choice" name="choice">
+                            <option value="rock">Rock</option>
+                            <option value="paper">Paper</option>
+                            <option value="scissors">Scissors</option>
+                        </select>
+                        <br>
+                        <input type="submit">
+
+                    </form>
                 </div>
-                <div class="content-box">
-                    <h1>This is content box 2</h1>
-                    <p>Lorem ipsum...</p>
-                </div>
-                <div class="content-box">
-                    <h1>This is content box 3</h1>
-                    <p>Lorem ipsum...</p>
-                </div>
+                
 
             </div>
 
             <aside id="contact">
-                <h1>Contact Info</h1>
-                <hr>
-                <h3> Name: Johnathan Hill</h3>
-                <h3>Email: jjhill0805@gmail.com</h3>
-                <form>
-                    <label for="name">Name: </label>
-                    <input type="text" id="name">
-                    <input type="submit">
-                </form>
-
+                <h1><u>Rules</u></h1>
+                <p> <b>You must choose Rock, Paper or Scissors</b></p>
+                <br>
+                <p><b>The Combos are as follows: </b></p>
+                <ul>
+                    <li>Rock beats scissors</li>
+                    <li>Scissors beats paper</li>
+                    <li>Paper beats rock</li>
+                </ul>
             </aside>
         </div>
 
