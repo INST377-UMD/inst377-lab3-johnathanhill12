@@ -1,11 +1,13 @@
 body {
     background-color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #bar {
     text-align: center;
     color:white;
     background-color: #7c7c7c;
+    margin-top: 5px;
     padding: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     clear: both;
@@ -13,7 +15,7 @@ body {
 
 #main-nav {
     background-color: sienna;
-    text-align: center;
+    
 }
 
 #main-nav li {
@@ -46,6 +48,11 @@ body {
     padding: 10px;
 }
 
+#main-nav a{
+    text-decoration: none;
+
+}
+
 .content-area {
     width: 70%;
     float: left;
@@ -62,12 +69,19 @@ body {
 }
 
 #contact {
-    text-align: center;
+    text-align: left;
     background-color:rgb(0, 255, 21);
     float: right;
     width: 25%;
+    margin-top: 10px;
     margin-right: 10px;
     border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#contact:hover{
+background-color: cadetblue;
 }
 
 html, body {
@@ -82,4 +96,12 @@ html, body {
     height: 100%;
     margin-bottom: 5px;
 
+}
+
+input[type="text"]{
+    width: 150px;
+}
+
+input[type="text"]:focus{
+    width: 200px;
 }
